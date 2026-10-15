@@ -1,0 +1,65 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+/config.properties
+
+### 运行产物：Agent 自己生成的数据，不进版本库
+.tasks/
+.memory/
+.transcripts/
+.task_outputs/
+# 旧 Memory 类留下的，已被 .memory/ 取代
+/memory.md
+# cron 调度器的运行产物
+.scheduled_tasks.json
+
+### 整个 IDEA 目录（个人环境配置）
+.idea/
+
+### 个人文件：不进公开仓库
+邹宇鹏求职简历*.md
+
+### 临时探针 / 与本项目无关的文件
+_probe*.txt
+tmp_x.txt
+pomodoro.html
+todo.html
+
+### 多 Agent 协作测试的产物
+Test_Result/
